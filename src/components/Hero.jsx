@@ -12,7 +12,7 @@ function Hero() {
             className="moustache-logo"
           />
         </div>
-        <h1 className="hero-title">Tyr's Movember</h1>
+        <h1 className="hero-title">Tyr's Mo Page</h1>
         <p className="hero-tagline">Help support men's health</p>
         <div className="whisker-decoration">
           <span className="whisker whisker-left"></span>
