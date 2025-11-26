@@ -1,8 +1,7 @@
 .footer {
-  padding: 3rem 1.5rem;
+  padding: 1.5rem 1rem;
   background: var(--color-primary);
   text-align: center;
-  margin-top: auto;
 }
 
 .footer-content {
@@ -11,55 +10,46 @@
 }
 
 .footer-team {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .footer-logo-link {
   display: inline-block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .footer-logo-link:hover {
   transform: scale(1.05);
-  opacity: 0.9;
 }
 
 .footer-luctc-logo {
-  height: 80px;
+  height: 60px;
   width: auto;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .footer-movember {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-mo-logo {
-  height: 40px;
+  height: 30px;
   width: auto;
   filter: brightness(0) invert(1);
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 @media (min-width: 768px) {
   .footer {
-    padding: 4rem 2rem;
-  }
-
-  .footer-team {
-    font-size: 1.1rem;
+    padding: 2rem 1.5rem;
   }
 
   .footer-luctc-logo {
-    height: 100px;
-  }
-
-  .footer-mo-logo {
-    height: 50px;
+    height: 70px;
   }
 }

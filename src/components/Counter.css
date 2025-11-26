@@ -1,5 +1,5 @@
 .counter {
-  padding: 4rem 1.5rem;
+  padding: 1.5rem 1rem;
   background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-primary) 100%);
   text-align: center;
 }
@@ -10,70 +10,42 @@
 }
 
 .counter-label {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .counter-amount {
-  font-size: clamp(3rem, 12vw, 5rem);
+  font-size: clamp(2rem, 8vw, 3rem);
   font-weight: 700;
   color: white;
-  margin-bottom: 1rem;
-  min-height: 1.2em;
+  margin-bottom: 0.25rem;
 }
 
 .counter-value {
   display: inline-block;
-  animation: countUp 0.5s ease-out;
-}
-
-@keyframes countUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .counter-loading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   opacity: 0.7;
-  animation: pulse-text 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse-text {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
 }
 
 .counter-error {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--color-accent);
 }
 
 .counter-message {
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.7);
-  font-weight: 400;
 }
 
 @media (min-width: 768px) {
   .counter {
-    padding: 5rem 2rem;
-  }
-
-  .counter-label {
-    font-size: 1.25rem;
-  }
-
-  .counter-message {
-    font-size: 1.1rem;
+    padding: 2rem 1.5rem;
   }
 }

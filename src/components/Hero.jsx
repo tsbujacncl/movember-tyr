@@ -14,10 +14,6 @@ function Hero() {
         </div>
         <h1 className="hero-title">Tyr's Mo Page</h1>
         <p className="hero-tagline">Help support men's health</p>
-        <div className="whisker-decoration">
-          <span className="whisker whisker-left"></span>
-          <span className="whisker whisker-right"></span>
-        </div>
       </div>
     </section>
   )
