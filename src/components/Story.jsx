@@ -10,7 +10,7 @@ function Story() {
       src: instagramPost,
       alt: 'LUCTC Movember 2025 Instagram post',
       title: 'The Challenge',
-      text: 'This November, our cycling and triathlon club took on something big — a 24-hour spin challenge. Four bikes, running non-stop, all to raise money and awareness for men\'s health. When I heard about it, I knew I had to be part of it. This cause means a lot to me.',
+      text: 'Movember is about starting conversations that can save lives — whether it\'s prostate cancer, testicular cancer, or mental health. Too many men suffer in silence. This November, our cycling and triathlon club took on a 24-hour spin challenge. Four bikes, running non-stop. When I heard about it, I knew I had to be part of it.',
       reverse: false
     },
     {

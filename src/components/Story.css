@@ -20,7 +20,7 @@
 .story-image {
   flex-shrink: 0;
   width: 100%;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .story-image img {
@@ -36,17 +36,17 @@
 }
 
 .story-text h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 0.5rem;
 }
 
 .story-text p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.7;
   color: var(--color-teal);
-  max-width: 400px;
+  max-width: 450px;
 }
 
 /* Desktop: side by side */
@@ -67,8 +67,8 @@
   }
 
   .story-image {
-    width: 35%;
-    max-width: 280px;
+    width: 30%;
+    max-width: 220px;
   }
 
   .story-text {
@@ -81,11 +81,11 @@
   }
 
   .story-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .story-text p {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     max-width: none;
   }
 }

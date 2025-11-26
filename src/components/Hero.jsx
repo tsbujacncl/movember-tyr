@@ -13,7 +13,6 @@ function Hero() {
             className="moustache-logo"
           />
         </div>
-        <p className="hero-tagline">Help support men's health</p>
       </div>
     </section>
   )
