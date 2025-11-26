@@ -1,0 +1,97 @@
+.hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(180deg, var(--color-cream) 0%, var(--color-light) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(243, 156, 18, 0.1) 0%, transparent 50%);
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.moustache-container {
+  margin-bottom: 1.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.moustache-logo {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-tagline {
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  font-weight: 500;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.whisker-decoration {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.whisker {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-secondary));
+  border-radius: 2px;
+}
+
+.whisker-left {
+  transform: rotate(-15deg);
+}
+
+.whisker-right {
+  transform: rotate(15deg);
+}
+
+@media (min-width: 768px) {
+  .moustache-logo {
+    width: 200px;
+  }
+
+  .whisker {
+    width: 80px;
+  }
+}
