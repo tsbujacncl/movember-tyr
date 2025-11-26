@@ -10,7 +10,7 @@ function Story() {
       src: instagramPost,
       alt: 'LUCTC Movember 2025 Instagram post',
       title: 'The Challenge',
-      text: 'LUCTC Movember 2025 — 24-hour spin challenge. 4 bikes, non-stop, raising money for men\'s health.',
+      text: 'This November, our cycling and triathlon club took on something big — a 24-hour spin challenge. Four bikes, running non-stop, all to raise money and awareness for men\'s health. When I heard about it, I knew I had to be part of it. This cause means a lot to me.',
       reverse: false
     },
     {
@@ -18,7 +18,7 @@ function Story() {
       src: spinBike,
       alt: 'Tyr cycling on spin bike',
       title: 'My Part',
-      text: 'Started at 9am. Felt very early for my legs to be spinning so fast. 3 hours later, I was sore but proud.',
+      text: 'I signed up for a 3-hour slot starting at 9am. Honestly, it felt way too early for my legs to be spinning that fast. But once I got going, the energy in the room kept me pushing. By the end, I was absolutely knackered — but proud. It\'s the longest I\'ve been on a stationary bike in over 6 years.',
       reverse: true
     },
     {
@@ -26,7 +26,7 @@ function Story() {
       src: leaderboard,
       alt: 'Final leaderboard showing results',
       title: 'The Result',
-      text: 'Goal: 2,000km. I achieved 68km in 3 hours. Together we smashed 2,580km!',
+      text: 'We set ourselves a goal of 2,000km as a team. I managed to clock 68km in my 3 hours. And together? We absolutely smashed it — 2,580km total. Seeing that number on the leaderboard made every sore muscle worth it.',
       reverse: false
     }
   ]
