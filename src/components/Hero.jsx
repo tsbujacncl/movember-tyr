@@ -5,6 +5,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
+        <h1 className="hero-title">Tyr's Mo Page</h1>
         <div className="moustache-container">
           <img
             src={moustacheLogo}
@@ -12,7 +13,6 @@ function Hero() {
             className="moustache-logo"
           />
         </div>
-        <h1 className="hero-title">Tyr's Mo Page</h1>
         <p className="hero-tagline">Help support men's health</p>
       </div>
     </section>
