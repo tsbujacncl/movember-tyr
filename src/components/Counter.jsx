@@ -40,7 +40,7 @@ function Counter() {
   return (
     <section className="counter">
       <div className="counter-content">
-        <div className="counter-label">Raised so far</div>
+        <div className="counter-label">Tyr has raised</div>
         <div className="counter-amount">
           {loading && <span className="counter-loading">Loading...</span>}
           {error && <span className="counter-error">Check back soon!</span>}
@@ -48,7 +48,7 @@ function Counter() {
             <span className="counter-value">{formatAmount(amount)}</span>
           )}
         </div>
-        <p className="counter-message">Every pound makes a difference</p>
+        <p className="counter-message">Help support men's health</p>
       </div>
     </section>
   )

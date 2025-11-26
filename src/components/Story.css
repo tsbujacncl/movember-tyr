@@ -1,0 +1,91 @@
+.story {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.story-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.story-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Photo has its own frame */
+.story-image {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Text floats freely - no box */
+.story-text {
+  text-align: center;
+}
+
+.story-text h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.story-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-teal);
+  max-width: 400px;
+}
+
+/* Desktop: side by side */
+@media (min-width: 700px) {
+  .story {
+    padding: 3rem 2rem;
+  }
+
+  .story-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .story-section.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .story-image {
+    width: 45%;
+    max-width: 400px;
+  }
+
+  .story-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .story-section.reverse .story-text {
+    text-align: right;
+  }
+
+  .story-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .story-text p {
+    font-size: 1.05rem;
+    max-width: none;
+  }
+}
