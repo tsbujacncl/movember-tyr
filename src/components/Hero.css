@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1.5rem 1rem 0.1rem;
+  padding: 0.75rem 1rem 0.1rem;
   background: linear-gradient(180deg, var(--color-cream) 0%, var(--color-light) 100%);
 }
 
@@ -51,7 +51,7 @@
   font-size: clamp(1.8rem, 6vw, 2.5rem);
   font-weight: 700;
   color: var(--color-primary);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
 }
 
 .hero-tagline {
